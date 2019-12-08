@@ -57,8 +57,8 @@
             foreach($dateData as $data){
                 $oldstart = str_replace(':','',$data->starttime);
                 $oldend = str_replace(':','',$data->endtime);
-                $oldstart = substr($data, 0, 4);
-                $oldend = substr($data, 0, 4);
+                $oldstart = substr($data->starttime, 0, 4);
+                $oldend = substr($data->endtime, 0, 4);
                 
                 if($starttime == $oldstart || ($starttime > $oldstart && $starttime < $oldend) || ($starttime < $oldstart && $endtime > $oldstart)) { 
 
