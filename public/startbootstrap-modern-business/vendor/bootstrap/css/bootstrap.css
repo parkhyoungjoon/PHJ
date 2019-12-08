@@ -10358,10 +10358,6 @@ i{
   color:black;
   font-family: sans-serif;
 }
-.page{
-  margin-top: 6%;
-  background-color: lawngreen;
-}
 .form-group label{
   font-size: 15px;
   font-weight: bold;
@@ -10372,14 +10368,15 @@ i{
 } */
 
 #formData{
-  background-color: #f0e8e8f5;
+  /* background-color: #f0e8e8f5; */
   text-align: center;
-  border-radius: 15px 15px 15px 15px;
-  box-shadow: 3px 3px 3px 3px var(--gray);
+  /* border-radius: 15px 15px 15px 15px; */
+  /* box-shadow: 3px 3px 3px 3px var(--gray); */
   margin: auto;
   width: 500px;
   padding: 15px;
   height: auto;
+  margin-top:20px;
   margin-bottom: 10px;
 }
 .selectBar button { 

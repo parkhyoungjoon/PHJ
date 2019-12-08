@@ -50,6 +50,7 @@
         var option = $(`<button type="button" data-value="${l}" class='selec_off'>${weeknd[i]}</button>`);
         if( key.indexOf(l) != -1){ // 문자열 찾기
             option = $(`<button type="button" data-value="${l}" class='selec_on'>${weeknd[i]}</button>`);
+            weekset += l;
         }
         select.append(option);
     }

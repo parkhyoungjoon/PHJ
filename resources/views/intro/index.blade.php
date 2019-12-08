@@ -1,4 +1,4 @@
-@extends('layouts.mainnav')
+@extends('layouts.profile')
 
 @section('content')
     <div class='page'>
@@ -16,7 +16,6 @@
     <style>
         *{ margin:0; padding:0;}
         ul li {list-style:none;}
-        .page{float:left; width:100%;}
         .a_ul{float:left; width:13%; height:582px; background:#bbbbbb; color:#4F4F4F; font:bold 15px malgun gothic; position:relative;padding-left:1px;}
         .page > .a_ul:nth-child(2) > li:nth-child(2n) {background:#FFA2A2; color:#B70000;}
         .page > .a_ul:nth-child(3) > li:nth-child(2n) {background:#FFDC7E; color:#DB3A00;}
