@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+.edit_info{
+  background-color: #d1ecf1;
+  border:2px solid #bee5eb;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.edit_info:hover{
+  background-color: #d4edda;
+  border:2px solid #c3e6cb;
+  color: gray;
+  font-size: 15px;
+  font-weight: bold;
+}
+.edit_pwd{
+  background-color: #d1ecf1;
+  border:2px solid #bee5eb;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.edit_pwd:hover{
+  background-color: #d4edda;
+  border:2px solid #c3e6cb;
+  color: gray;
+  font-size: 15px;
+  font-weight: bold;
+}
+.edit_human{
+  width: 70px;
+  height: 30px;
+  background-color: #f8d7da;
+  border:2px solid #f5c6cb;
+  color: black;
+  font-size: 15px;
+}
+.edit_human:hover{
+  width: 70px;
+  height: 30px;
+  background-color: pink;
+  border:2px solid pink;
+  color: white;
+  font-size: 15px;
+}
+.edit_delete{
+  width: 60px;
+  height: 30px;
+  background-color: #cce5ff;
+  border: 2px solid #b8daff;
+}
+.edit_delete:hover{
+  color: white;
+  background-color: skyblue;
+  border: 1px solid skyblue;.
+}
+/* .textinfo{
+  color: red;
+  background-color: blue;
+} */
+.edit_p{
+  text-align: center;
+}
+.edit_h3{
+  text-align: center;
+}
+.edit_table{
+  border: 3px solid violet;
+  display: flex;
+  height: 300px;
+
+}
+.edit_table td{
+  margin-bottom: 30px;
+}
+#edit_name{
+  border: 1px solid blue;
+
+}
+#edit_email{
+  border: 1px solid skyblue;
+}
+#edit_phonenumber{
+  border: 1px solid blue;
+}
+#edit_birth{
+  border: 1px solid blue;
+}
+#edit_info_manager{
+  background-color: yellow;
+  margin: 15px;
+  /* margin-left: 450px; */
+  border: 4px solid white;
+  border-radius: 7px;
+  height: 500px;
+  box-shadow: 4px;
+
+  /* padding: 30px; */
+  /* width: 400px; */
+  /* text-align: center; */
+}
+#edit_info_manager h3{
+  text-align: center;
+
+}
+#edit_info_manager p{
+  text-align: center;
+  font-size: 30px;
+
+}
+
+#edit_save{
+  border: 3px solid violet;
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+}
+#edit_info_down{
+  text-align: center;
+}
+#edit_info_down button{
+  width: 150px;
+  height: 40px;
+  /* margin-left: 35%; */
+  font-size: 20px;
+  border-radius: 8em 8em 8em 8em;
+  background:linear-gradient(to right,#F6CEF5,#F5A9BC);
+
+}
+#edit_cancel{
+  border: 1px solid red;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 37.5%;
+  width:25%;
+  text-align: center;
+}
+#edit_cancel a{
+  text-align: center;
+}
+#formData{
+  /* width: 400px; */
+  width:auto;
+}
+.nice3{
+  /* padding: 100px; */
+  border: 1px solid pink;
+  /* background: yellowgreen; */
+  margin-left:25%;
+  width: 600px;
+  height: 580px;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
